@@ -2,8 +2,8 @@
   "name": "rag-chatbot-ui",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "dev": "next dev",
+    "build": "next build"
   },
   "dependencies": {
     "next": "latest",
