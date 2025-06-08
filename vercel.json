@@ -1,0 +1,10 @@
+{
+  "builds": [
+    { "src": "api/index.py", "use": "@vercel/python" },
+    { "src": "app/page.tsx", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/api", "dest": "api/index.py" },
+    { "src": "/(.*)", "dest": "app/page.tsx" }
+  ]
+}
